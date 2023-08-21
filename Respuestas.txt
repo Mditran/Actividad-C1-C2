@@ -8,6 +8,11 @@ es una red convergente?
 2. Describir las características de las arquitecturas de red: tolerante a fallas,
 escalabilidad, calidad del servicio y seguridad. Mostrar sus respectivos
 ejemplos.
+- La red tolerante a fallas es aquella que limita el impacto de una falla tanto en software como hardware y su capacidad de recuperancio con respectoa dicha falla. Supongamos que tratamos de acceder a un servicio por una ruta en especifico y esa ruta fallo ya sea por problemas en el servidor donde se almacena la informacion de la ruta, la conexion a rutas redundantes nos proporciona rutas alternas para acceder a esa informacion requeria, esta a su vez puede estar en un servidor distinto.
+- Una red escalable es aquella que puede expandirse para aceptar nuevos usuario o conexiones al sistema o servicio sin afectar el rendimiento de la misma.Ej: Hace unos años cuando era el periodo de matricula simca no podia soportar la cantidad de usuarios que se conectaban simultanieamnete al sistema, esto generaba retrasos, latencias y perdida de informacion al no dejar elegir materias.
+- La calidad de servicio es aquella que mide la calidad de experimientar las misma presentacion de audio y video en persona. Ej: Supongamos que vamos a ver un video en un servicio de streming y vemos que tanto el audio como el video no estan sincronizados, vemos que mientras se habla se observa que la boca del observador esta quieta, y cuando no se escucha nada la voz del presentador se esta moviendo, otro ejemplo es que enviamos un videos por algun medio y la informacion que recibe el receptor esta corrupta y solo se observa algo borroso.
+- La segurida en la red es muy importante al momento de transmitir informacion critica de la empresa, esta tiene que prevenir accesos no autorizados a la red, encriptar la infomacion o trabajar en una red cerrada. Ej: El uso de iniciar sesion para acceder y manipular informacion en especifica o de alto riesgo.
+
 3. Investigar qué son las redes orientadas y no orientadas a la conexión.
 4. Describa que es la calidad del servicio y responda: ¿Por qué importa la
 calidad del servicio en una red de datos?
